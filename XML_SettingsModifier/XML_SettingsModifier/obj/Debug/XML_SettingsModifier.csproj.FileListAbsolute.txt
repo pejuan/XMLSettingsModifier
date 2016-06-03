@@ -1,0 +1,9 @@
+c:\users\jpejuan\documents\visual studio 2015\Projects\XML_SettingsModifier\XML_SettingsModifier\bin\Debug\XML_SettingsModifier.exe.config
+c:\users\jpejuan\documents\visual studio 2015\Projects\XML_SettingsModifier\XML_SettingsModifier\bin\Debug\XML_SettingsModifier.exe
+c:\users\jpejuan\documents\visual studio 2015\Projects\XML_SettingsModifier\XML_SettingsModifier\bin\Debug\XML_SettingsModifier.pdb
+c:\users\jpejuan\documents\visual studio 2015\Projects\XML_SettingsModifier\XML_SettingsModifier\obj\Debug\XML_SettingsModifier.csprojResolveAssemblyReference.cache
+c:\users\jpejuan\documents\visual studio 2015\Projects\XML_SettingsModifier\XML_SettingsModifier\obj\Debug\XML_SettingsModifier.Form1.resources
+c:\users\jpejuan\documents\visual studio 2015\Projects\XML_SettingsModifier\XML_SettingsModifier\obj\Debug\XML_SettingsModifier.Properties.Resources.resources
+c:\users\jpejuan\documents\visual studio 2015\Projects\XML_SettingsModifier\XML_SettingsModifier\obj\Debug\XML_SettingsModifier.csproj.GenerateResource.Cache
+c:\users\jpejuan\documents\visual studio 2015\Projects\XML_SettingsModifier\XML_SettingsModifier\obj\Debug\XML_SettingsModifier.exe
+c:\users\jpejuan\documents\visual studio 2015\Projects\XML_SettingsModifier\XML_SettingsModifier\obj\Debug\XML_SettingsModifier.pdb
