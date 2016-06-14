@@ -51,6 +51,8 @@
             this.sp_responsesperpage = new System.Windows.Forms.NumericUpDown();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.tb_nameGiven = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.sp_registrynumber)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sp_initialpage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sp_endingpage)).BeginInit();
@@ -304,11 +306,29 @@
             this.label12.Text = "Value of -1 indicates ALL REGISTRIES";
             this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(113, 600);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(119, 13);
+            this.label13.TabIndex = 11;
+            this.label13.Text = "Name of files generated";
+            // 
+            // tb_nameGiven
+            // 
+            this.tb_nameGiven.Location = new System.Drawing.Point(255, 593);
+            this.tb_nameGiven.Name = "tb_nameGiven";
+            this.tb_nameGiven.Size = new System.Drawing.Size(305, 20);
+            this.tb_nameGiven.TabIndex = 12;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1042, 661);
+            this.Controls.Add(this.tb_nameGiven);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.sp_responsesperpage);
@@ -367,6 +387,8 @@
         private System.Windows.Forms.NumericUpDown sp_responsesperpage;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox tb_nameGiven;
     }
 }
 

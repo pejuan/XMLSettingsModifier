@@ -118,7 +118,16 @@ namespace XML_SettingsModifier
 
                         }
 
-                        
+
+                    }
+                    else if (aNodes[i].ChildNodes[j].Name == "nombreDado")
+                    {
+                        try
+                        {
+                            tb_nameGiven.Text = aNodes[i].ChildNodes[j].InnerText;
+                        }catch(Exception e){
+
+                        }
                     }
                 }
                 
@@ -198,6 +207,10 @@ namespace XML_SettingsModifier
                     else if (aNodes[i].ChildNodes[j].Name == "responsesPerPage")
                     {
                         aNodes[i].ChildNodes[j].InnerText = sp_responsesperpage.Value.ToString();
+                    }
+                    else if (aNodes[i].ChildNodes[j].Name == "nombreDado")
+                    {
+                        aNodes[i].ChildNodes[j].InnerText = tb_nameGiven.Text;
                     }
                 }
                 doc.Save(Application.StartupPath + "\\monkey.xml");

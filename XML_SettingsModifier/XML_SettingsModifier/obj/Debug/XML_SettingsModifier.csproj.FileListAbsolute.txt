@@ -7,3 +7,20 @@ c:\users\jpejuan\documents\visual studio 2015\Projects\XML_SettingsModifier\XML_
 c:\users\jpejuan\documents\visual studio 2015\Projects\XML_SettingsModifier\XML_SettingsModifier\obj\Debug\XML_SettingsModifier.csproj.GenerateResource.Cache
 c:\users\jpejuan\documents\visual studio 2015\Projects\XML_SettingsModifier\XML_SettingsModifier\obj\Debug\XML_SettingsModifier.exe
 c:\users\jpejuan\documents\visual studio 2015\Projects\XML_SettingsModifier\XML_SettingsModifier\obj\Debug\XML_SettingsModifier.pdb
+C:\Users\jpejuan\Documents\XMLSSETIINGSMODIFIER\XMLSettingsModifier\XML_SettingsModifier\XML_SettingsModifier\bin\Debug\XML_SettingsModifier.exe.config
+C:\Users\jpejuan\Documents\XMLSSETIINGSMODIFIER\XMLSettingsModifier\XML_SettingsModifier\XML_SettingsModifier\obj\Debug\XML_SettingsModifier.exe
+C:\Users\jpejuan\Documents\XMLSSETIINGSMODIFIER\XMLSettingsModifier\XML_SettingsModifier\XML_SettingsModifier\obj\Debug\XML_SettingsModifier.pdb
+C:\Users\jpejuan\Documents\XMLSSETIINGSMODIFIER\XMLSettingsModifier\XML_SettingsModifier\XML_SettingsModifier\bin\Debug\XML_SettingsModifier.exe
+C:\Users\jpejuan\Documents\XMLSSETIINGSMODIFIER\XMLSettingsModifier\XML_SettingsModifier\XML_SettingsModifier\bin\Debug\XML_SettingsModifier.pdb
+C:\Users\jpejuan\Documents\XMLSSETIINGSMODIFIER\XMLSettingsModifier\XML_SettingsModifier\XML_SettingsModifier\bin\Debug\mscorlib.dll
+C:\Users\jpejuan\Documents\XMLSSETIINGSMODIFIER\XMLSettingsModifier\XML_SettingsModifier\XML_SettingsModifier\bin\Debug\System.Net.Http.dll
+C:\Users\jpejuan\Documents\XMLSSETIINGSMODIFIER\XMLSettingsModifier\XML_SettingsModifier\XML_SettingsModifier\bin\Debug\System.Net.Http.xml
+C:\Users\jpejuan\Documents\XMLSSETIINGSMODIFIER\XMLSettingsModifier\XML_SettingsModifier\XML_SettingsModifier\bin\Debug\normidna.nlp
+C:\Users\jpejuan\Documents\XMLSSETIINGSMODIFIER\XMLSettingsModifier\XML_SettingsModifier\XML_SettingsModifier\bin\Debug\normnfc.nlp
+C:\Users\jpejuan\Documents\XMLSSETIINGSMODIFIER\XMLSettingsModifier\XML_SettingsModifier\XML_SettingsModifier\bin\Debug\normnfd.nlp
+C:\Users\jpejuan\Documents\XMLSSETIINGSMODIFIER\XMLSettingsModifier\XML_SettingsModifier\XML_SettingsModifier\bin\Debug\normnfkc.nlp
+C:\Users\jpejuan\Documents\XMLSSETIINGSMODIFIER\XMLSettingsModifier\XML_SettingsModifier\XML_SettingsModifier\bin\Debug\normnfkd.nlp
+C:\Users\jpejuan\Documents\XMLSSETIINGSMODIFIER\XMLSettingsModifier\XML_SettingsModifier\XML_SettingsModifier\obj\Debug\XML_SettingsModifier.csprojResolveAssemblyReference.cache
+C:\Users\jpejuan\Documents\XMLSSETIINGSMODIFIER\XMLSettingsModifier\XML_SettingsModifier\XML_SettingsModifier\obj\Debug\XML_SettingsModifier.Form1.resources
+C:\Users\jpejuan\Documents\XMLSSETIINGSMODIFIER\XMLSettingsModifier\XML_SettingsModifier\XML_SettingsModifier\obj\Debug\XML_SettingsModifier.Properties.Resources.resources
+C:\Users\jpejuan\Documents\XMLSSETIINGSMODIFIER\XMLSettingsModifier\XML_SettingsModifier\XML_SettingsModifier\obj\Debug\XML_SettingsModifier.csproj.GenerateResource.Cache
