@@ -53,6 +53,8 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.tb_nameGiven = new System.Windows.Forms.TextBox();
+            this.cb_settings = new System.Windows.Forms.ComboBox();
+            this.label14 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.sp_registrynumber)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sp_initialpage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sp_endingpage)).BeginInit();
@@ -61,9 +63,9 @@
             // 
             // bt_modify
             // 
-            this.bt_modify.Location = new System.Drawing.Point(668, 600);
+            this.bt_modify.Location = new System.Drawing.Point(816, 600);
             this.bt_modify.Name = "bt_modify";
-            this.bt_modify.Size = new System.Drawing.Size(75, 23);
+            this.bt_modify.Size = new System.Drawing.Size(122, 54);
             this.bt_modify.TabIndex = 3;
             this.bt_modify.Text = "Modify";
             this.bt_modify.UseVisualStyleBackColor = true;
@@ -322,11 +324,31 @@
             this.tb_nameGiven.Size = new System.Drawing.Size(305, 20);
             this.tb_nameGiven.TabIndex = 12;
             // 
+            // cb_settings
+            // 
+            this.cb_settings.FormattingEnabled = true;
+            this.cb_settings.Location = new System.Drawing.Point(255, 632);
+            this.cb_settings.Name = "cb_settings";
+            this.cb_settings.Size = new System.Drawing.Size(413, 21);
+            this.cb_settings.TabIndex = 13;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(116, 639);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(65, 13);
+            this.label14.TabIndex = 14;
+            this.label14.Text = "Use settings";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1042, 661);
+            this.ClientSize = new System.Drawing.Size(1042, 691);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.cb_settings);
             this.Controls.Add(this.tb_nameGiven);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
@@ -389,6 +411,8 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox tb_nameGiven;
+        private System.Windows.Forms.ComboBox cb_settings;
+        private System.Windows.Forms.Label label14;
     }
 }
 

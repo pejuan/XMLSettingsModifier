@@ -18,7 +18,11 @@ namespace XML_SettingsModifier
         public Form1()
         {
             InitializeComponent();
-
+            cb_settings.Items.Add("Survey Name");
+            cb_settings.Items.Add("Survey Name and Dates Prior");
+            cb_settings.Items.Add("Survey Name and Dates After");
+            cb_settings.Items.Add("Survey Name and Between(Dates After and Dates Prior)");
+            cb_settings.Items.Add("Titles Containing");
             doc.Load(Application.StartupPath + "\\monkey.xml");
 
             XmlNodeList aNodes = doc.SelectNodes("/root");
@@ -129,6 +133,17 @@ namespace XML_SettingsModifier
 
                         }
                     }
+                    else if (aNodes[i].ChildNodes[j].Name == "use")
+                    {
+                        try
+                        {
+                            cb_settings.SelectedIndex = int.Parse(aNodes[i].ChildNodes[j].InnerText); 
+                        }
+                        catch (Exception)
+                        {
+
+                        }
+                    }
                 }
                 
                 
@@ -212,6 +227,10 @@ namespace XML_SettingsModifier
                     {
                         aNodes[i].ChildNodes[j].InnerText = tb_nameGiven.Text;
                     }
+                    else if (aNodes[i].ChildNodes[j].Name == "use")
+                    {
+                        aNodes[i].ChildNodes[j].InnerText = cb_settings.SelectedIndex.ToString();
+                    }
                 }
                 doc.Save(Application.StartupPath + "\\monkey.xml");
             }
@@ -227,6 +246,11 @@ namespace XML_SettingsModifier
         }
 
         private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label14_Click(object sender, EventArgs e)
         {
 
         }
