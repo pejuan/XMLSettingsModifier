@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +24,27 @@ namespace XML_SettingsModifier
             cb_settings.Items.Add("Survey Name and Dates After");
             cb_settings.Items.Add("Survey Name and Between(Dates After and Dates Prior)");
             cb_settings.Items.Add("Titles Containing");
+            string filePath = Application.StartupPath + "\\monkey.xml";
+            if (!File.Exists(filePath))
+            {
+                string xmltext = @"<root>
+                    <key>-</key>
+                    <token>-</token>
+                    <datesPrior>20/04/2016 12:00:00 a.m.</datesPrior>
+                    <datesAfter>01/01/2016 12:00:00 a.m.</datesAfter>
+                    <surveyName>-</surveyName>
+                    <titlesContaining>NPS</titlesContaining>
+                    <RegistryNumber>500</RegistryNumber>
+                    <initialPage>1</initialPage>
+                    <endingPage>1</endingPage>
+                    <responsesPerPage>500</responsesPerPage>
+                    <nombreDado>default</nombreDado>
+                    <lastPage>1</lastPage>
+                    <use>0</use>
+                </root>";
+                File.WriteAllText(filePath,xmltext);
+            }
+
             doc.Load(Application.StartupPath + "\\monkey.xml");
 
             XmlNodeList aNodes = doc.SelectNodes("/root");
